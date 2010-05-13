@@ -1,5 +1,6 @@
 syntax on
 colorscheme desert
+set nocompatible
 set guifont=Inconsolata:h16
 set number
 set wrap
@@ -8,6 +9,8 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 set smartindent
+set incsearch
+set hidden
 filetype plugin on
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 let g:miniBufExplMapWindowNavVim = 1
