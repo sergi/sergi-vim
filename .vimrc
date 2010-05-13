@@ -12,6 +12,8 @@ set smartindent
 set incsearch
 set hidden
 filetype plugin on
+" Automatically remove trailing spaces
+autocmd FileType c,cpp,java,php,js,py autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
