@@ -22,6 +22,7 @@ let g:miniBufExplModSelTarget = 1
 set lines=60 columns=180
 nmap <F5> :FufFile<CR>
 nmap <F6> :FufFile \**<CR>
+nnoremap <F4> :buffers<CR>:buffer<space>
 cabbr nt NERDTree
 
 "Remove MacVim's toolbar
