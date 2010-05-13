@@ -18,3 +18,9 @@ set lines=60 columns=180
 nmap <F5> :FufFile<CR>
 nmap <F6> :FufFile \**<CR>
 cabbr nt NERDTree
+
+"Remove MacVim's toolbar
+if has("gui_running")
+    set guioptions=egmrt
+endif
+
