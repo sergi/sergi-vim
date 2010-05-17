@@ -1,5 +1,5 @@
 syntax on
-colorscheme desert
+colorscheme vilight
 set nocompatible
 set guifont=Inconsolata:h16
 set number
