@@ -10,6 +10,7 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set incsearch
+set fileencoding=utf-8
 set hidden
 filetype plugin on
 " Automatically remove trailing spaces
