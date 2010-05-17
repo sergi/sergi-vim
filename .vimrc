@@ -12,6 +12,7 @@ set smartindent
 set incsearch
 set fileencoding=utf-8
 set hidden
+nnoremap <C-J> o<Esc>k$
 filetype plugin on
 " Automatically remove trailing spaces
 autocmd FileType c,cpp,java,php,js,py autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
